@@ -59,4 +59,4 @@ jobs:
           app-name: 'ua-ats-poc-ui'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_68563E0BFBE049D7BE28AB6F4779FD09 }}
-          package: ./build
+          package: .
